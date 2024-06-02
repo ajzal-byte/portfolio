@@ -55,9 +55,25 @@ export const BentoGridItem = ({
 }) => {
   const [copied, setCopied] = useState(false);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText("ajzalmuhammed786@gmail.com");
+  const unsecuredCopyEnmail = () => {
+    const textArea = document.createElement("textarea");
+    textArea.value = "ajzalmuhammed786@gmail.com";
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    try {
+      document.execCommand("copy");
+    } catch (error) {
+      console.error(error);
+    }
+    document.body.removeChild(textArea);
+  };
 
+  const handleCopy = () => {
+    if (window.isSecureContext && navigator.clipboard)
+      navigator.clipboard.writeText("ajzalmuhammed786@gmail.com");
+    else unsecuredCopyEnmail();
+    
     setCopied(true);
 
     // setTimeout(() => {
@@ -99,9 +115,7 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {id === 6 && (
-          <BackgroundGradientAnimation />
-        )}
+        {id === 6 && <BackgroundGradientAnimation />}
 
         <div
           className={cn(
