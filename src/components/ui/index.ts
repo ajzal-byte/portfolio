@@ -7,6 +7,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import { Globe } from "./Globe";
 import { GlobeDemo } from "./GridGlobe";
 import { PinContainer } from "./PinContainer";
+import { InfiniteMovingCards } from "./InfiniteMovingCards";
 
 export {
   Spotlight,
@@ -18,5 +19,6 @@ export {
   BackgroundGradientAnimation,
   Globe,
   GlobeDemo,
-  PinContainer
+  PinContainer,
+  InfiniteMovingCards,
 };
