@@ -1,4 +1,4 @@
 import Hero from "./Hero";
 import Grid from "./Grid";
-
-export { Hero, Grid };
+import RecentProjects from "./RecentProjects";
+export { Hero, Grid, RecentProjects };

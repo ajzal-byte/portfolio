@@ -6,6 +6,7 @@ import { BentoGrid, BentoGridItem } from "./BentoGrid";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { Globe } from "./Globe";
 import { GlobeDemo } from "./GridGlobe";
+import { PinContainer } from "./PinContainer";
 
 export {
   Spotlight,
@@ -17,4 +18,5 @@ export {
   BackgroundGradientAnimation,
   Globe,
   GlobeDemo,
+  PinContainer
 };
