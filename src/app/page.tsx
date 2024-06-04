@@ -1,4 +1,4 @@
-import { Grid, Hero, RecentProjects, Testimonials } from "@/components";
+import { Experience, Grid, Hero, RecentProjects, Testimonials } from "@/components";
 import { FloatingNav } from "@/components/ui";
 import { navItems } from "@/data";
 
@@ -13,6 +13,7 @@ export const Home = () => {
         <Grid />
         <RecentProjects />
         <Testimonials />
+        <Experience />
       </div>
     </main>
   );

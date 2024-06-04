@@ -8,6 +8,7 @@ import { Globe } from "./Globe";
 import { GlobeDemo } from "./GridGlobe";
 import { PinContainer } from "./PinContainer";
 import { InfiniteMovingCards } from "./InfiniteMovingCards";
+import { Button, MovingBorder } from "./MovingBorder";
 
 export {
   Spotlight,
@@ -21,4 +22,6 @@ export {
   GlobeDemo,
   PinContainer,
   InfiniteMovingCards,
+  Button,
+  MovingBorder
 };
