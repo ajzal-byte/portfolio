@@ -11,7 +11,10 @@ declare module "@react-three/fiber" {
   }
 }
 
-extend({ ThreeGlobe });
+if (typeof window !== "undefined") {
+  // Client-side-only code
+  extend({ ThreeGlobe });
+}
 
 const RING_PROPAGATION_SPEED = 3;
 const aspect = 1.2;
