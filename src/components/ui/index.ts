@@ -10,6 +10,11 @@ import { PinContainer } from "./PinContainer";
 import { InfiniteMovingCards } from "./InfiniteMovingCards";
 import { Button, MovingBorder } from "./MovingBorder";
 import { CanvasRevealEffect } from "./CanvasReveal";
+import {
+  CardBody,
+  CardContainer,
+  CardItem,
+} from "./3D-Card";
 
 export {
   Spotlight,
@@ -26,4 +31,7 @@ export {
   Button,
   MovingBorder,
   CanvasRevealEffect,
+  CardBody,
+  CardContainer,
+  CardItem,
 };
