@@ -9,6 +9,7 @@ import { GlobeDemo } from "./GridGlobe";
 import { PinContainer } from "./PinContainer";
 import { InfiniteMovingCards } from "./InfiniteMovingCards";
 import { Button, MovingBorder } from "./MovingBorder";
+import { CanvasRevealEffect } from "./CanvasReveal";
 
 export {
   Spotlight,
@@ -23,5 +24,6 @@ export {
   PinContainer,
   InfiniteMovingCards,
   Button,
-  MovingBorder
+  MovingBorder,
+  CanvasRevealEffect,
 };
