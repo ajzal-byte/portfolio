@@ -1,7 +1,6 @@
 "use client";
 
 import { cn } from "@/utils/cn";
-import Image from "next/image";
 import {
   BackgroundGradientAnimation,
   GlobeDemo,
@@ -55,7 +54,7 @@ export const BentoGridItem = ({
 }) => {
   const [copied, setCopied] = useState(false);
 
-  const unsecuredCopyEnmail = () => {
+  const unsecuredCopyEmail = () => {
     const textArea = document.createElement("textarea");
     textArea.value = "ajzalmuhammed786@gmail.com";
     document.body.appendChild(textArea);
@@ -72,7 +71,7 @@ export const BentoGridItem = ({
   const handleCopy = () => {
     if (window.isSecureContext && navigator.clipboard)
       navigator.clipboard.writeText("ajzalmuhammed786@gmail.com");
-    else unsecuredCopyEnmail();
+    else unsecuredCopyEmail();
     
     setCopied(true);
 
