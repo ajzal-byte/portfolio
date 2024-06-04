@@ -1,7 +1,17 @@
+"use client"
 import { MagicButton, Spotlight, TextGenerateEffect } from "@/components/ui";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaDownload } from "react-icons/fa6";
 
 const Hero = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/Ajzal-Muhammed.pdf";
+    link.download = "Ajzal-Muhammed.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -23,19 +33,22 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic web magic with Next.js
+            Welcome to my portfolio
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming concepts into Seamless User Experiences"
+            words="Transforming Concepts into Captivating Realities, One Line at a Time"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Ajzal, a Next.js developer based on India
+            Hey, I&apos;m Ajzal, a Full Stack developer based in India
           </p>
-          <a href="#about">
-            <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
-          </a>
+          <MagicButton
+            title="Get my resume"
+            icon={<FaDownload />}
+            position="right"
+            handleClick={handleDownload}
+          />
         </div>
       </div>
     </div>
