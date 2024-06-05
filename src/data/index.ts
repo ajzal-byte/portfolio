@@ -125,33 +125,24 @@ export const certifications = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I've known Ajzal for some time now, and I'm always amazed by how quickly he picks up new skills in web development. He's a fast learner who isn't afraid to ask questions to improve. What I admire most about Ajzal is his willingness to take on challenges. He faces them with determination and always finds solutions. In the world of web development, having someone like him on your team is a real advantage. He's adaptable, resilient, and always ready to learn more.",
+    name: "Muhammed Fasil",
+    title: "Full-Stack Developer at VortexWeb",
+    img: "/fasil.jpeg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Ajzal was a fantastic experience. Despite being relatively new to some of the technologies we used, his enthusiasm and willingness to learn were truly impressive. Ajzal quickly picked up Next.js and implemented it effectively in our project. He has a natural curiosity that drives him to explore and master new tools and techniques.",
+    name: "Eldho George",
+    title: "Junior Technical Engineer at DataNimbus",
+    img: "/eldho.jpeg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had the opportunity to collaborate with Ajzal on a project that involved web scraping and data integration. Although he was still getting acquainted with these areas, his eagerness to dive in and learn was remarkable. His curiosity and proactive mindset make him an invaluable person to work with, always ready to tackle new challenges and contribute innovative ideas.",
+    name: "Sreeraj C R",
+    title: "Flutter Developer at Levon Techno Solutions",
+    img: "/sreeraj.jpeg",
   },
 ];
 
@@ -191,31 +182,21 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Intern",
+    desc: "Self learning platform where industry experts conduct weekly reviews. Developed multiple small and large scale applications.",
+    company: "Brototype",
+    time: "Jul 2023 - Present",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Freelance Web Developer",
+    desc: "Worked with clients with their ideas, from initial project planning to deployment on the web.",
+    company: "Self employed",
+    time: "Jan 2024 - Present",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg",
   },
 ];
 
