@@ -28,7 +28,7 @@ export const PinContainer = ({
   };
 
   return (
-    <div
+      <div
       className={cn(
         "relative group/pin z-50  cursor-pointer",
         containerClassName

@@ -2,6 +2,7 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui";
 import { FaLocationArrow } from "react-icons/fa6";
+import Link from "next/link";
 
 const RecentProjects = () => {
   return (
@@ -17,11 +18,17 @@ const RecentProjects = () => {
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
             <PinContainer title={"Visit"} href={link}>
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[40vh] h-[30vh] overflow-hidden mb-10">
+              <a href={link} target="_blank">
+              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[40vh] h-[18vh] overflow-hidden mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <img src="/bg.png" alt="bg-img" />
                 </div>
-                <img src={img} alt={title} className="z-10 absolute bottom-0" />
+                <img
+                  src={img}
+                  alt={title}
+                  className="z-10 absolute -bottom-8 rounded-tl-xl rounded-tr-xl md:max-w-[550px] md:max-h-[250px] lg:max-w-[550px] lg:max-h-[275px]"
+                  style={{ transform: "rotate(2deg)" }}
+                />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
@@ -50,6 +57,7 @@ const RecentProjects = () => {
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
+              </a>
             </PinContainer>
           </div>
         ))}
