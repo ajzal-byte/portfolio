@@ -1,15 +1,6 @@
 import {withSentryConfig} from "@sentry/nextjs";
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "**",
-      },
-    ],
-  },
-};
+const nextConfig = {};
 
 export default withSentryConfig(nextConfig, {
 // For all available options, see:
