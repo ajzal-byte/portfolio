@@ -4,7 +4,7 @@ import { CardBody, CardContainer, CardItem } from "./ui";
 
 const Certifications = () => {
   return (
-    <div className="py-20" id="testimonials">
+    <div className="py-20">
       <h1 className="heading">
         My
         <span className="text-purple"> professional achievements</span>
