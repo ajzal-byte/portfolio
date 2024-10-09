@@ -143,7 +143,7 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Cryptoverse - Everything about Crypto",
     des: "Cryptoverse is a React-based app that provides real-time cryptocurrency data, news and insights.",
     img: "/crypto.png",
     iconLists: [
