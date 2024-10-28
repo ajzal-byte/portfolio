@@ -5,8 +5,8 @@ import { FaDownload } from "react-icons/fa6";
 const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Ajzal-Muhammed.pdf";
-    link.download = "Ajzal-Muhammed.pdf";
+    link.href = "/Ajzal_Muhammed.pdf";
+    link.download = "Ajzal_Muhammed.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
